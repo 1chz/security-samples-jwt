@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class JWTSecurityApplication
+class SecurityJwtApplication
 
 fun main(args: Array<String>) {
-    runApplication<JWTSecurityApplication>(*args)
+    runApplication<SecurityJwtApplication>(*args)
 }
